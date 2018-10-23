@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>JS Assignments</title>
+
+    <meta name="author" content="Mark Mercer">
+    <meta name="description" content="Basic HTML Form Collection, specific to an assignment"> <!-- Webpage Description to poplulate search engines like Google-->
+    <meta name="keywords" content="Collecting User Data"> <!-- Key words for searching -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+
+    <header><h1>JS Assignment</h1></header>
+    <nav><h2></h2></nav>
+    <aside><p></p></aside>
+    <section>
+      <h3>Assignment: Landscape Or Portrait</h3>
+      <p><a href="" target="_blank"></a></p>
+
+      <!-- Below is the full HTML FORM Template for all Assignments-->
+
+      <form action="x.html" method="post" onsubmit="event.preventDefault();">
+        <!-- Ensures this FORM doesn't work with PHP or other server side scripting languages-->
+
+      <p>&nbsp;</p>
+
+      <!-- Non-breaking real space, adds real space to webpage that is not eliminated by browser (hard coded space)-->
+      <p>
+        <label for="textfield">width:</label>
+        <input name="textfield1" type="text" id="textfield1">
+      </p>
+      <p>
+        <label for="textfield2">height:</label>
+        <input name="textfield2" type="text" id="textfield2">
+      </p>
+      <!-- Textarea is mutliline plain text editing control-->
+      <p>
+        <label for="tArea">Text Area:</label>
+        <textarea type="tArea" cols="20" rows="4" id="password"></textarea>
+      </p>
+      <p>&nbsp;</p>
+
+
+      <p>&nbsp;</p>
+        <fieldset>
+          <legend>Case Studies</legend>
+          <br>
+          <div>Test Case Examples</div>
+          <ul>
+            <li>
+          </ul>
+        </div>
+            <label>
+              <input type="checkbox" name="CheckboxGroup1" nalue="checkbox1" id="CheckboxGroup1_0">
+              Checkbox 1
+            </label>
+            <br>
+            <label>
+              <input type="checkbox" name="CheckboxGroup1" nalue="checkbox2" id="CheckboxGroup1_1">
+              Checkbox 2
+            </label>
+            <br>
+            <label>
+              <input type="checkbox" name="CheckboxGroup1" nalue="checkbox3" id="CheckboxGroup1_2">
+              Checkbox 3
+            </label>
+            <br>
+        </fieldset>
+
+<br><br>
+<button type="button" onclick="main()">Submit</button>
+<br>
+<h3>The Answer is:
+<a id="answer">What is the Answer?!!!</a>
+</h3>
+
+
+    <!-- This is an exemplar link to the associated JavaScript DOC in another folder-->
+    <script src="../script/childTemplate.js"></script>
+
+  </body>
+
+</html>
